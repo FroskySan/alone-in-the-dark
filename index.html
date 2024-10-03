@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+        <title>Alone in the dark</title>
+    </head>
+    <body>
+        <main>
+            <div class="passo ativo" id="passo-0">
+                <img src="img/cenario-passo0.jpg" alt="sala de laboratorio">
+                <p>Você acorda dentro de uma cápsula em um laboratório destruído. Você olha em volta e vê uma porta e várias caixas quebradas na sala.</p>
+                <button class="btn-proximo" data-proximo="1">Abrir a porta</button>
+                <button class="btn-proximo" data-proximo="2">Olhar o que tem em sua volta</button>
+            </div>
+            <div class="passo" id="passo-1">
+                <p>Você vai até à porta para abri-lá, mas sem sucesso. Talvez tenha algo dentro deste laboratório que possa ajudar a abrir.</p>
+                <button class="btn-proximo" data-proximo="2">Olhar o que tem em sua volta</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Você olha em sua volta para ver se acha algo para abrir a porta. Você acha um cartão um pouco sujo no chão e tenta usá-lo na porta para destrancar. Depois de algumas tentativas para abrir a porta, você finalmente consegue sair daquela sala.</p>
+            <button class="btn-proximo" data-proximo="3">Prosseguir o caminho</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="img/cenario-passo3.jpg" alt="corredor">
+            <p>Após sair da sala, você percebe que o lugar está mais abandonado e destrído do que esperava. Estranhamente o lugar ainda esteja funcionando.</p>
+            <button class="btn-proximo" data-proximo="4">Andar pelo corredor</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>Você andou pelo corredor por alguns metros, até que você escuta alguns sons estranhos vindo de uma das portas daquele corredor.</p>
+            <button class="btn-proximo" data-proximo="5">Observar a janela da sala com cuidado</button>
+            <button class="btn-proximo" data-proximo="11">Ignorar e continuar o caminho</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="img/cenario-passo5.jpg" alt="janela de uma sala estranha">
+            <p>Com muito cuidado, você vai olhar pela janela evitando o máximo de barulho possível, já que não sabe o que está fazendo aqueles sons estranhos. Você olha pela janela da sala e consegue ver nada de estranho, além de ficar mais difícil de se enxergar naquele escuro.</p>
+            <button class="btn-proximo" data-proximo="6">Tentar abrir a porta</button>
+            <button class="btn-proximo" data-proximo="11">Continuar o caminho</button>
+        </div>
+        <div class="passo" id="passo-6">
+                <p>Você abre lentamente a porta para ter certeza que não é nada demais que esteja lá dentro, só para matar a curiosidade... Mas não esperava que a curiosidade iria custar tão caro.</p>
+                <button class="btn-proximo" data-proximo="7">. . .</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <img src="img/cenario-passo7.jpg" alt="entidade desconhecida">
+                <p>Aquela coisa na escuridão virou-se para você, olhando fixamente para os seus olhos. Naquele momento, você não conseguia mover um passo para sair daquela sala com aquilo olhando fixamente para você.</p>
+                <button class="btn-proximo" data-proximo="8">. . .</button>
+        </div>
+        <div class="passo" id="passo-8">
+                <p>A coisa levantou-se lentamente até ficar de cara com você, enquanto seu corpo começava a tremer de medo, não conseguia gritar, se mover ou parar de olhar para aquilo, como se estivesse em uma paralisia do sono.</p>
+                <button class="btn-proximo" data-proximo="9">. . .</button>
+        </div>
+        <div class="passo" id="passo-9">
+                    <p>A boca daquela coisa começou a crescer rapidamente, parecia que seria devorado naquele instante. Você sem poder fazer nada, só espera o momento de chegar a sua hora de morrer...</p>
+                    <button class="btn-proximo" data-proximo="10">. . .</button>
+        </div>
+        <div class="passo" id="passo-10">
+                <p>Tudo em sua volta fica escuro, apenas consegue ver os olhos vermelhos daquele monstro, criatura, entidade ou qualquer outra coisa que não tem como compreender... Até que você escuta alguns pequenos passos atrás de você e perde a consciência no mesmo instante.</p>
+                <button class="btn-proximo" data-proximo="0">[Retornar]</button>
+        </div>
+        <div class="passo" id="passo-11">
+                <p>Você ignora aqueles sons e continua andando para achar a saída daquele lugar estranho.</p>
+                <button class="btn-proximo" data-proximo="12">Continuar a caminhar pelo corredor</button>
+        </div>
+        </main>
+
+        <script src="script.js"></script>
+    </body>
+</html>
